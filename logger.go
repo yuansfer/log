@@ -48,7 +48,7 @@ func InitLog() error {
 			NameKey:        "logger",
 			CallerKey:      "caller",
 			StacktraceKey:  "stacktrace",
-			EncodeTime:     zapcore.EpochMillisTimeEncoder,
+			EncodeTime:     zapcore.ISO8601TimeEncoder,
 			EncodeDuration: zapcore.SecondsDurationEncoder,
 			EncodeCaller:   zapcore.ShortCallerEncoder,
 			EncodeName:     nil,
