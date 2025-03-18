@@ -1,4 +1,4 @@
-module bitbucket.org/pockyt-external/log
+module github.com/yuansfer/log
 
 go 1.18
 
